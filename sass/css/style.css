@@ -1,0 +1,355 @@
+/*header*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  header .logo {
+    font-size: 17px; } }
+
+/*tablet and laptop version*/
+@media only screen and (min-width: 768px) {
+  header .logo {
+    font-size: 20px; } }
+
+/*principal*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  .principal .principal__h1 {
+    text-align: center; }
+  .principal .principal__p {
+    text-align: center;
+    font-size: 14px; } }
+
+/*tablet and laptop version*/
+@media only screen and (min-width: 768px) {
+  .principal .container {
+    padding-right: 300px; }
+    .principal .container .principal__h1 {
+      text-align: justify; }
+    .principal .container .principal__p {
+      font-size: 20px; } }
+
+/*products*/
+/*tablet and laptop version*/
+@media only screen and (min-width: 768px) {
+  .ourProducts .ourProducts__img {
+    height: 230px; } }
+
+@media only screen and (min-width: 1024px) {
+  .ourProducts .ourProducts__img {
+    height: 330px; } }
+
+/*photo section*/
+/*mobile and tablet version*/
+@media only screen and (max-width: 1023px) {
+  .photo figure img {
+    height: 430px; } }
+
+@media only screen and (min-width: 1024px) {
+  .photo figure img {
+    height: 580px; } }
+
+/*about-us section*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  .aboutUs .aboutUs__p {
+    font-size: 14px; }
+  .benefits ul li {
+    font-size: 14px; }
+  .benefits .benefits__p {
+    font-size: 14px; } }
+
+@media only screen and (min-width: 768px) {
+  /*tablet and desktop version*/
+  .aboutUs .aboutUs__p {
+    font-size: 20px; }
+  .benefits ul li {
+    font-size: 20px; }
+  .benefits .benefits__p {
+    font-size: 20px; } }
+
+/*Contact html*/
+/*location and distribution section*/
+.distribution {
+  background-color: #1a1814;
+  /*subscription*/ }
+  .distribution .distribution__h2 {
+    font: 700 36px "Poppins", sans-serif;
+    color: #cda45e; }
+  .distribution .distribution__iframe {
+    border: none; }
+  .distribution .contactForm .contactForm__input {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #1a1814;
+    border: 1px solid #625b4b;
+    color: white;
+    padding: 6px 12px;
+    margin: 10px; }
+  .distribution .contactForm .contactForm__input:focus {
+    border: 1px solid #cda45e; }
+  .distribution .contactForm .contactForm__input:hover {
+    border: 1px solid #cda45e; }
+  .distribution .contactForm .contactForm__legend {
+    color: white; }
+  .distribution .contactForm .contactForm__label {
+    color: #aaaaaa; }
+  .distribution .contactForm .contactForm__submit {
+    margin-right: 10px;
+    padding: 5px; }
+  .distribution .contactForm .contactForm__reset {
+    padding: 5px; }
+  .distribution .subscription {
+    background-color: inherit; }
+    .distribution .subscription .subscription__p {
+      color: #aaaaaa;
+      font-size: 20px; }
+    .distribution .subscription .subscription__input {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+      background: #1a1814;
+      border: 1px solid #625b4b;
+      color: white;
+      padding: 6px 12px;
+      margin: 10px; }
+    .distribution .subscription .subscription__input:hover {
+      border: 1px solid #cda45e; }
+    .distribution .subscription .subscription__button {
+      padding: 5px; }
+
+/*gallery html*/
+/*photo section*/
+.photo {
+  background-color: #1a1814; }
+  .photo .photo__h2 {
+    font: 700 36px "Poppins", sans-serif;
+    color: #cda45e; }
+  .photo figure img {
+    padding: 15px; }
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible; } }
+
+.slideRight-0 {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-200ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-400ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 400ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-600ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 600ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-800ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 800ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-1000ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 1000ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+/*video section*/
+.video {
+  background-color: #0c0b09; }
+  .video .video__h2 {
+    font: 700 36px "Poppins", sans-serif;
+    color: #cda45e; }
+  .video .video__presentation {
+    height: 430px; }
+
+/*products html*/
+/*products section*/
+.products {
+  background-color: white;
+  /*subscription*/ }
+  .products .products__h2 {
+    font: 700 36px "Poppins", sans-serif;
+    color: black; }
+  .products .productsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 50px;
+    align-items: start; }
+    .products .productsContainer .products__item {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+      .products .productsContainer .products__item .productsDescription {
+        background-color: white;
+        margin: 15px;
+        border-top: 1px solid black; }
+      .products .productsContainer .products__item img {
+        max-width: 100%;
+        height: 100%; }
+  .products .subscription {
+    background-color: inherit; }
+    .products .subscription .subscription__p {
+      color: black;
+      font-size: 20px; }
+    .products .subscription .subscription__input {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+      background: transparent;
+      border: 1px solid #625b4b;
+      color: white;
+      padding: 6px 12px;
+      margin: 10px; }
+    .products .subscription .subscription__input:hover {
+      border: 1px solid #cda45e; }
+    .products .subscription .subscription__button {
+      padding: 5px; }
+
+/*about-us html*/
+/*about-us section*/
+.aboutUs {
+  background-color: #1a1814; }
+  .aboutUs .aboutUs__h2 {
+    color: #cda45e; }
+  .aboutUs .aboutUs__p {
+    color: #aaaaaa; }
+
+.benefits {
+  background-color: #1a1814; }
+  .benefits .benefits__h2 {
+    color: #cda45e; }
+  .benefits .benefits__h3 {
+    color: white; }
+  .benefits ul li {
+    color: #aaaaaa; }
+  .benefits .benefits__p {
+    color: #aaaaaa; }
+
+/*index html*/
+body {
+  top: 40px; }
+
+/*header*/
+header .navbar {
+  background: rgba(0, 0, 0, 0.85); }
+  header .navbar .logo {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif; }
+  header .navbar a {
+    text-decoration: none;
+    color: white; }
+  header .navbar li .dropdown-menu {
+    background: rgba(0, 0, 0, 0.85); }
+  header .navbar .navbar-toggler {
+    z-index: 400;
+    color: white; }
+
+/*principal section*/
+.principal {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1610415958681-7aabb05711f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .principal .principal__h1 {
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff; }
+    .principal .principal__h1 span {
+      color: #cda45e; }
+  .principal .principal__p {
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    color: #eee;
+    font-family: "Open Sans", sans-serif; }
+
+.principal:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+/*products section*/
+.ourProducts {
+  background-color: #1a1814; }
+  .ourProducts .ourProducts__img {
+    width: 100%;
+    margin: 14px auto;
+    opacity: 0.7; }
+  .ourProducts .ourProducts__img:hover {
+    opacity: 1; }
+  .ourProducts .ourProducts__h2 {
+    color: #cda45e;
+    font: 700 36px "Poppins", sans-serif; }
+  .ourProducts .ourProducts__p {
+    color: #aaaaaa;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif; }
+
+/*contact section*/
+.contact {
+  background-color: #0c0b09;
+  color: #aaaaaa; }
+  .contact .contact__h2 {
+    color: #cda45e;
+    font: 700 36px "Poppins", sans-serif;
+    text-align: justify; }
+  .contact .contact__secondaryRow {
+    height: 240px; }
+    .contact .contact__secondaryRow svg {
+      color: #cda45e; }
+    .contact .contact__secondaryRow .bi-instagram:hover {
+      transition: 0.5s;
+      color: #f707bb; }
+
+/*footer section*/
+.footer {
+  background-color: #343a40; }
+  .footer .footer__p {
+    font-size: 0.8rem; }

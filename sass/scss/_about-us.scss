@@ -1,0 +1,32 @@
+/*about-us html*/
+
+//variables
+@import "variables";
+
+/*about-us section*/
+.aboutUs {
+  background-color: $background1;
+  .aboutUs__h2 {
+    color: $color-h2;
+  }
+  .aboutUs__p {
+    color: $color-p;
+  }
+}
+.benefits {
+  background-color: $background1;
+  .benefits__h2 {
+    color: $color-h2;
+  }
+  .benefits__h3 {
+    color: white;
+  }
+  ul {
+    li {
+      color: $color-p;
+    }
+  }
+  .benefits__p {
+      color: $color-p;
+  }
+}

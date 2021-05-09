@@ -1,0 +1,120 @@
+/*header*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  header {
+    .logo {
+      font-size: 17px;
+    }
+  }
+}
+/*tablet and laptop version*/
+@media only screen and (min-width: 768px) {
+  header {
+    .logo {
+      font-size: 20px;
+    }
+  }
+}
+/*principal*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  .principal {
+    .principal__h1 {
+      text-align: center;
+    }
+    .principal__p {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+/*tablet and laptop version*/
+@media only screen and (min-width: 768px) {
+  .principal {
+    .container {
+      padding-right: 300px;
+      .principal__h1 {
+        text-align: justify;
+      }
+      .principal__p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+/*products*/
+/*tablet and laptop version*/
+@media only screen and (min-width: 768px) {
+  .ourProducts {
+    .ourProducts__img {
+      height: 230px;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .ourProducts {
+    .ourProducts__img {
+      height: 330px;
+    }
+  }
+}
+
+//gallery html
+/*photo section*/
+/*mobile and tablet version*/
+@media only screen and (max-width: 1023px) {
+  .photo {
+    figure {
+      img {
+        height: 430px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .photo {
+    figure {
+      img {
+        height: 580px;
+      }
+    }
+  }
+}
+//about-us html
+/*about-us section*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  .aboutUs {
+    .aboutUs__p {
+      font-size: 14px;
+    }
+  }
+  .benefits {
+    ul {
+      li {
+        font-size: 14px;
+      }
+    }
+    .benefits__p {
+      font-size: 14px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  /*tablet and desktop version*/
+  .aboutUs {
+    .aboutUs__p {
+      font-size: 20px;
+    }
+  }
+  .benefits {
+    ul {
+      li {
+        font-size: 20px;
+      }
+    }
+    .benefits__p {
+      font-size: 20px;
+    }
+  }
+}

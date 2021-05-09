@@ -1,0 +1,122 @@
+//import media queries and html
+@import "media-queries";
+@import "contact";
+@import "gallery";
+@import "products";
+@import "variables";
+@import "about-us";
+
+/*index html*/
+body {
+  top: 40px;
+}
+/*header*/ 
+header {
+  .navbar {
+    background: rgba(0, 0, 0, 0.85);
+    .logo {
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    li {
+      .dropdown-menu {
+        background: rgba(0, 0, 0, 0.85);
+      }
+    }
+    .navbar-toggler {
+      z-index: 400;
+      color: white;
+    }
+  }
+}
+/*principal section*/
+.principal {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1610415958681-7aabb05711f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  .principal__h1 {
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    span {
+      color: #cda45e; 
+    }
+  }
+  .principal__p {
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    color: #eee;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+.principal:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/*products section*/
+.ourProducts {
+  background-color: $background1;
+  .ourProducts__img {
+    width: 100%;
+    margin: 14px auto;
+    opacity: 0.7;
+  }
+  .ourProducts__img:hover {
+    opacity: 1;
+  }
+  .ourProducts__h2 {
+    color: $color-h2;
+    font: $font-h2;
+  }
+  .ourProducts__p {
+    color: $color-p;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+/*contact section*/
+.contact {
+  background-color: $background2;
+  color: $color-p;
+  .contact__h2 {
+    color: $color-h2;
+    font: $font-h2;
+    text-align: justify;
+  }
+  .contact__secondaryRow {
+    height: 240px;
+    svg {
+      color: #cda45e;
+    }
+    .bi-instagram:hover {
+      transition: 0.5s;
+      color: #f707bb;
+    }
+  }
+}
+/*footer section*/
+.footer {
+  background-color: $background3;
+  .footer__p {
+    font-size: 0.8rem;
+  }
+}

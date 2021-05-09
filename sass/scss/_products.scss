@@ -1,0 +1,60 @@
+//variables
+@import "variables";
+
+/*products html*/
+/*products section*/
+.products {
+  background-color: white;
+  .products__h2 {
+    font: $font-h2;
+    color: black;
+  }
+  .productsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 50px;
+    align-items: start;
+    .products__item {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      .productsDescription {
+        background-color: white;
+        margin: 15px;
+        border-top: 1px solid black;
+      }
+      img {
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  /*subscription*/
+  .subscription {
+    background-color: inherit;
+    .subscription__p {
+      color: black;
+      font-size: 20px;
+    }
+    .subscription__input {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+      background: transparent;
+      border: 1px solid #625b4b;
+      color: white;
+      padding: 6px 12px;
+      margin: 10px;
+    }
+    .subscription__input:hover {
+      border: 1px solid $color-h2;
+    }
+    .subscription__button {
+      padding: 5px;
+    }
+  }
+}

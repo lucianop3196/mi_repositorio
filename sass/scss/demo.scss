@@ -89,7 +89,7 @@ header {
   }
   .ourProducts__p {
     color: $color-p;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
   }
 }
@@ -104,6 +104,9 @@ header {
   }
   .contact__secondaryRow {
     height: 240px;
+    p {
+      font-size: 20px;
+    }
     svg {
       color: #cda45e;
     }

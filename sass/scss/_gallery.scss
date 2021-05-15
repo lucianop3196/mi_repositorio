@@ -27,7 +27,10 @@
     visibility: visible;
   }
 }
-$animation-delays: 0, 200ms, 400ms, 600ms, 800ms, 1000ms;
+$animation-delays: 0, 200ms, 400ms, 600ms, 800ms, 1000ms, 1200ms, 1400ms, 1600ms,
+  1800ms, 2000ms, 2200ms, 2400ms, 2600ms, 2800ms, 3000ms, 3200ms, 3400ms, 3600ms,
+  3800ms, 4000ms, 4200ms, 4400ms, 4600ms, 4800ms, 5000ms, 5200ms, 5400ms, 5600ms,
+  5800ms, 6000ms, 6200ms, 6400ms, 6600ms, 6800ms;
 @each $delay in $animation-delays {
   .slideRight-#{$delay} {
     animation-name: slideRight;

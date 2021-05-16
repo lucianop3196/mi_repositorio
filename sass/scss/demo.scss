@@ -10,7 +10,7 @@
 body {
   top: 40px;
 }
-/*header*/ 
+/*header*/
 header {
   .navbar {
     background: rgba(0, 0, 0, 0.85);
@@ -53,7 +53,7 @@ header {
     line-height: 65px;
     color: #fff;
     span {
-      color: #cda45e; 
+      color: #cda45e;
     }
   }
   .principal__p {
@@ -92,7 +92,6 @@ header {
   }
   .ourProducts__p {
     color: $color-p;
-    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1px;
   }
@@ -107,7 +106,6 @@ header {
     text-align: justify;
   }
   .contact__secondaryRow {
-    height: 240px;
     p {
       font-size: 17px;
       line-height: 35px;

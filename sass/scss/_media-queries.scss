@@ -15,6 +15,24 @@
     }
   }
 }
+/*contact section*/
+/*mobile version*/
+@media only screen and (max-width: 425px) {
+  .contact {
+    .contact__secondaryRow {
+      height: 320px;
+    }
+  }
+}
+/*tablet and laptop version*/
+@media only screen and (min-width: 426px) {
+  .contact {
+    .contact__secondaryRow {
+      height: 230px;
+    }
+  }
+}
+// Index html
 /*principal*/
 /*mobile version*/
 @media only screen and (max-width: 767px) {
@@ -24,7 +42,7 @@
     }
     .principal__p {
       text-align: center;
-      font-size: 14px;
+      font-size: 17px;
     }
   }
 }
@@ -43,11 +61,20 @@
   }
 }
 /*products*/
+/*mobile version*/
+@media only screen and (max-width: 767px) {
+  .ourProducts__p {
+    font-size: 17px;
+  }
+}
 /*tablet and laptop version*/
 @media only screen and (min-width: 768px) {
   .ourProducts {
     .ourProducts__img {
       height: 230px;
+    }
+    .ourProducts__p {
+      font-size: 20px;
     }
   }
 }
@@ -58,7 +85,6 @@
     }
   }
 }
-
 //gallery html
 /*photo section*/
 /*mobile and tablet version*/

@@ -85,6 +85,15 @@
   .benefits .benefits__p {
     font-size: 20px; } }
 
+/*subscription section*/
+@media only screen and (max-width: 767px) {
+  .subscription .subscription__p {
+    font-size: 17px; } }
+
+@media only screen and (min-width: 768px) {
+  .subscription .subscription__p {
+    font-size: 20px; } }
+
 /*Contact html*/
 /*location and distribution section*/
 .distribution {
@@ -94,7 +103,11 @@
     font: 700 40px "Poppins", sans-serif;
     color: #cda45e; }
   .distribution .distribution__iframe {
-    border: none; }
+    border: none;
+    margin-bottom: 50px; }
+  .distribution .contactForm select {
+    background-color: #625b4b;
+    color: #aaaaaa; }
   .distribution .contactForm .contactForm__input {
     border-radius: 0;
     box-shadow: none;
@@ -114,14 +127,17 @@
     color: #aaaaaa; }
   .distribution .contactForm .contactForm__submit {
     margin-right: 10px;
-    padding: 5px; }
+    padding: 5px;
+    background-color: #625b4b;
+    color: #aaaaaa; }
   .distribution .contactForm .contactForm__reset {
-    padding: 5px; }
+    padding: 5px;
+    background-color: #625b4b;
+    color: #aaaaaa; }
   .distribution .subscription {
     background-color: inherit; }
     .distribution .subscription .subscription__p {
-      color: #aaaaaa;
-      font-size: 20px; }
+      color: #aaaaaa; }
     .distribution .subscription .subscription__input {
       border-radius: 0;
       box-shadow: none;
@@ -134,7 +150,9 @@
     .distribution .subscription .subscription__input:hover {
       border: 1px solid #cda45e; }
     .distribution .subscription .subscription__button {
-      padding: 5px; }
+      padding: 5px;
+      background-color: #625b4b;
+      color: #aaaaaa; }
 
 /*gallery html*/
 /*photo section*/

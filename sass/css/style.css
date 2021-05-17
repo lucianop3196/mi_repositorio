@@ -70,11 +70,11 @@
 /*mobile version*/
 @media only screen and (max-width: 767px) {
   .aboutUs .aboutUs__p {
-    font-size: 14px; }
+    font-size: 17px; }
   .benefits ul li {
-    font-size: 14px; }
+    font-size: 17px; }
   .benefits .benefits__p {
-    font-size: 14px; } }
+    font-size: 17px; } }
 
 @media only screen and (min-width: 768px) {
   /*tablet and desktop version*/
